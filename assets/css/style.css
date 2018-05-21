@@ -1,0 +1,178 @@
+html,
+body {
+	font-family: "Raleway", sans-serif;
+}
+
+body {
+	background-color: #353537;
+	color: #edd8ba;
+}
+
+.is-responsive {
+	min-width: auto;
+}
+
+.padding-none {
+	padding: 0 !important;
+}
+
+.centered {
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.welcome-header {
+	margin: 0 auto;
+	margin-top: 5em;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.small-img {
+	height: 25%;
+}
+
+.medium-img {
+	height: 50%;
+}
+
+.wrapper {
+	width: 860px;
+	margin: 0 auto;
+	padding-left: 40px;
+	padding-right: 40px;
+	overflow: hidden;
+}
+
+.header {
+	align-items: center;
+}
+
+.fill {
+	width: 100% !important;
+}
+
+#header .section {
+	position: relative;
+	overflow: hidden;
+}
+
+.header-item {
+	flex: 1;
+}
+
+/** Colors **/
+.blue {
+	background-color: rgb(103, 157, 198);
+}
+
+.yellow {
+	background-color: rgb(220, 159, 62);
+}
+
+.red {
+	background-color: rgb(191, 64, 41);
+}
+
+.green {
+	background-color: rgb(121, 175, 159);
+}
+
+.orange {
+	background-color: rgb(209, 110, 54);
+}
+
+/**  Text colors **/
+.text-blue {
+	color: rgb(103, 157, 198);
+}
+
+.text-yellow {
+	color: rgb(220, 159, 62);
+}
+
+.text-red {
+	color: rgb(191, 64, 41);
+}
+
+.text-green {
+	color: rgb(121, 175, 159);
+}
+
+.text-orange {
+	color: rgb(209, 110, 54);
+}
+
+/** Text Controls **/
+.large-text {
+	font-weight: 400;
+	font-size: 4em;
+}
+
+.medium-text {
+	font-weight: 400;
+	font-size: 3em;
+}
+
+.small-text {
+	font-weight: 400;
+	font-size: 2em;
+}
+
+.header-large {
+	font-weight: bolder;
+	font-size: 4em;
+}
+
+.header-medium {
+	font-weight: bold;
+	font-size: 3em;
+}
+
+.header-small {
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.header-xsmall {
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.header-xxsmall {
+	font-weight: bold;
+	font-size: 0.5em;
+}
+
+.text-centered {
+	text-align: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+/** SCREEN SIZE CONTROLS **/
+
+@media (min-width: 1101px) and (max-height: 1000px) {
+}
+
+@media (max-width: 1100px) {
+}
+
+@media (max-width: 900px) {
+}
+
+@media (max-width: 660px) {
+	.wrapper {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+	.small-img {
+		height: 10%;
+	}
+
+	.man {
+		display: none;
+	}
+}
